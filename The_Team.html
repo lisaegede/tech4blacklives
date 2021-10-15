@@ -4,16 +4,16 @@
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home</title>
+<title>The Team</title>
 <style id="applicationStylesheet" type="text/css">
 	.mediaViewInfo {
-		--web-view-name: Home;
-		--web-view-id: Home;
+		--web-view-name: The Team;
+		--web-view-id: The_Team;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
 	:root {
-		--web-view-ids: Home;
+		--web-view-ids: The_Team;
 	}
 	* {
 		margin: 0;
@@ -21,18 +21,16 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#Home {
+	#The_Team {
 		position: absolute;
-		width: 1920px;
-		height: 1080px;
+		width: 100vw;
+		height: 100%;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
-		--web-view-name: Home;
-		--web-view-id: Home;
+		--web-view-name: The Team;
+		--web-view-id: The_Team;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
-		--web-action-target: index.html;
-
 	}
 	@keyframes fadein {
 
@@ -44,7 +42,7 @@
 		}
 
 	}
-	#Background1 {
+	#background1 {
 		position: absolute;
 		width: 1920px;
 		height: 1080px;
@@ -52,13 +50,22 @@
 		top: 0px;
 		overflow: visible;
 	}
-	#Untitled_design_1 {
+	#Rectangle_2 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_2 {
 		position: absolute;
-		width: 1920px;
-		height: 1080px;
-		left: 0px;
-		top: 0px;
 		overflow: visible;
+		width: 1324px;
+		height: 732px;
+		left: 298px;
+		top: 174px;
 	}
 	#Rectangle_1 {
 		fill: rgba(255,255,255,1);
@@ -84,6 +91,10 @@
 		overflow: visible;
 		width: 489px;
 		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Index.html;
+		cursor: pointer;
 		text-align: left;
 		font-family: Helvetica Neue;
 		font-style: normal;
@@ -91,61 +102,75 @@
 		font-size: 35px;
 		color: rgba(4,83,241,1);
 	}
-	#We_are_researchers_interested_ {
-		left: 152px;
-		top: 149px;
+	#Dr_Denae_Ford_Robinson_Senior_ {
+		left: 478px;
+		top: 462px;
 		position: absolute;
 		overflow: visible;
-		width: 971px;
-		height: 620px;
+		width: 325px;
+		height: 83px;
 		text-align: center;
 		font-family: Helvetica Neue;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 65px;
-		color: rgba(255,255,255,1);
-	}
-	#Compensation_40_Amazon_Gift_Ca {
-		left: 907px;
-		top: 672px;
-		position: absolute;
-		overflow: visible;
-		width: 682px;
-		height: 427px;
-		text-align: right;
-		font-family: Helvetica Neue;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 40px;
-		color: rgba(255,255,255,1);
-	}
-	#Eligibility_User_builder_or_cu {
-		left: 1404px;
-		top: 149px;
-		position: absolute;
-		overflow: visible;
-		width: 418px;
-		height: 359px;
-		text-align: right;
-		font-family: Helvetica Neue;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 35px;
-		color: rgba(4,83,241,1);
-	}
-	#George_Mason_University_and_Ca {
-		left: 1247px;
-		top: 1039px;
-		position: absolute;
-		overflow: visible;
-		width: 553px;
-		height: 41px;
-		text-align: left;
-		font-family: Helvetica Neue;
-		font-style: normal;
-		font-weight: normal;
 		font-size: 20px;
-		color: rgba(255,255,255,1);
+		color: rgba(0,0,0,1);
+	}
+	#Dr_Brittany_Johnson_Assistant_ {
+		left: 798px;
+		top: 462px;
+		position: absolute;
+		overflow: visible;
+		width: 325px;
+		height: 83px;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Dr_Christina_Harrington_Assist {
+		left: 1118px;
+		top: 462px;
+		position: absolute;
+		overflow: visible;
+		width: 325px;
+		height: 85px;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Leslie_Coney_1st_year_PhD_Stud {
+		left: 543px;
+		top: 818px;
+		position: absolute;
+		overflow: visible;
+		width: 412px;
+		height: 85px;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Lisa_Egede_1st_year_PhD_Studen {
+		left: 988px;
+		top: 821px;
+		position: absolute;
+		overflow: visible;
+		width: 374px;
+		height: 85px;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
 	}
 	#Group_1 {
 		position: absolute;
@@ -155,13 +180,17 @@
 		top: 22px;
 		overflow: visible;
 	}
-	#Home_s {
+	#Home {
 		left: 0px;
 		top: 0px;
 		position: absolute;
 		overflow: visible;
 		width: 100px;
 		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Index.html;
+		cursor: pointer;
 		text-align: left;
 		font-family: Helvetica Neue;
 		font-style: normal;
@@ -205,23 +234,59 @@
 		font-size: 35px;
 		color: rgba(4,83,241,1);
 	}
-	#The_Team {
+	#The_Team_w {
 		left: 169px;
 		top: 0px;
 		position: absolute;
 		overflow: visible;
 		width: 162px;
 		white-space: nowrap;
-		--web-animation: fadein 0.3s ease-out;
-		--web-action-type: page;
-		--web-action-target: The_Team.html;
-		cursor: pointer;
 		text-align: left;
 		font-family: Helvetica Neue;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 35px;
 		color: rgba(4,83,241,1);
+	}
+	#bij-modified_1 {
+		position: absolute;
+		width: 212px;
+		height: 212px;
+		left: 854px;
+		top: 221px;
+		overflow: visible;
+	}
+	#christinaheadshotehiweb-modifi {
+		position: absolute;
+		width: 212px;
+		height: 212px;
+		left: 1174px;
+		top: 221px;
+		overflow: visible;
+	}
+	#ford_headshot-modified {
+		position: absolute;
+		width: 212px;
+		height: 212px;
+		left: 534px;
+		top: 221px;
+		overflow: visible;
+	}
+	#Optimized-IMG_0110_1-modified {
+		position: absolute;
+		width: 222px;
+		height: 222px;
+		left: 1066px;
+		top: 572px;
+		overflow: visible;
+	}
+	#leslieconeyheadshot-modified {
+		position: absolute;
+		width: 212px;
+		height: 212px;
+		left: 642px;
+		top: 577px;
+		overflow: visible;
 	}
 </style>
 <script id="applicationScript">
@@ -3136,32 +3201,37 @@ window.application = new Application();
 </script>
 </head>
 <body>
-<div id="Home">
-	<div id="Background1" class="Background1">
-		<img id="Untitled_design_1" src="Untitled_design_1.png" srcset="Untitled_design_1.png 1x, Untitled_design_1@2x.png 2x">
+<div id="The_Team">
+	<img id="background1" src="background1.png" srcset="background1.png 1x, background1@2x.png 2x">
 
-	</div>
+	<svg class="Rectangle_2">
+		<rect id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="1324" height="732">
+		</rect>
+	</svg>
 	<svg class="Rectangle_1">
 		<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="1920" height="86">
 		</rect>
 	</svg>
-	<div id="Technologists_for_Black_Lives">
+	<div onclick="application.goToTargetView(event)" id="Technologists_for_Black_Lives">
 		<span>Technologists for Black Lives</span>
 	</div>
-	<div id="We_are_researchers_interested_">
-		<span>We are researchers interested in hearing about your experience in using, curating, or creating resources & tools to support the Black lived experience</span>
+	<div id="Dr_Denae_Ford_Robinson_Senior_">
+		<span>Dr. Denae Ford Robinson</span><br/><span style="font-style:normal;font-weight:normal;">Senior Researcher at <br/>Microsoft Research</span>
 	</div>
-	<div id="Compensation_40_Amazon_Gift_Ca">
-		<span>Compensation:</span><br/><span style="font-style:normal;font-weight:normal;">$40 Amazon Gift Card<br/></span><br/><span>Conducted by:</span><br/><span style="font-style:normal;font-weight:normal;">Dr. Brittany Johnson, Dr. Denae Ford, Dr. Christina Harrington</span>
+	<div id="Dr_Brittany_Johnson_Assistant_">
+		<span>Dr. Brittany Johnson</span><br/><span style="font-style:normal;font-weight:normal;">Assistant Professor at <br/>George Mason University</span>
 	</div>
-	<div id="Eligibility_User_builder_or_cu">
-		<span>Eligibility</span><br/><span style="font-style:normal;font-weight:normal;color:rgba(0,0,0,1);">User, builder or curator of <br/>resource to support the Black lived experience</span><br/><span style="font-style:normal;font-weight:normal;color:rgba(112,112,112,1);"></span><br/><span>Time commitment</span><br/><span style="font-style:normal;font-weight:normal;color:rgba(0,0,0,1);">45 minute interview</span>
+	<div id="Dr_Christina_Harrington_Assist">
+		<span>Dr. Christina Harrington</span><br/><span style="font-style:normal;font-weight:normal;">Assistant Professor at Carnegie Mellon University</span>
 	</div>
-	<div id="George_Mason_University_and_Ca">
-		<span>George Mason University and Carnegie Mellon University</span>
+	<div id="Leslie_Coney_1st_year_PhD_Stud">
+		<span>Leslie Coney</span><br/><span style="font-style:normal;font-weight:normal;">1st year PhD Student at the University of Washington</span>
+	</div>
+	<div id="Lisa_Egede_1st_year_PhD_Studen">
+		<span>Lisa Egede</span><br/><span style="font-style:normal;font-weight:normal;">1st year PhD Student at Carnegie Mellon University</span>
 	</div>
 	<div id="Group_1">
-		<div id="Home_s">
+		<div onclick="application.goToTargetView(event)" id="Home">
 			<span>Home</span>
 		</div>
 		<div onclick="application.goToTargetView(event)" id="Contact">
@@ -3170,10 +3240,20 @@ window.application = new Application();
 		<div onclick="application.goToTargetView(event)" id="About">
 			<span>About</span>
 		</div>
-		<div onclick="application.goToTargetView(event)" id="The_Team">
+		<div id="The_Team_w">
 			<span>The Team</span>
 		</div>
 	</div>
+	<img id="bij-modified_1" src="bij-modified_1.png" srcset="bij-modified_1.png 1x, bij-modified_1@2x.png 2x">
+
+	<img id="christinaheadshotehiweb-modifi" src="christinaheadshotehiweb-modifi.png" srcset="christinaheadshotehiweb-modifi.png 1x, christinaheadshotehiweb-modifi@2x.png 2x">
+
+	<img id="ford_headshot-modified" src="ford_headshot-modified.png" srcset="ford_headshot-modified.png 1x, ford_headshot-modified@2x.png 2x">
+
+	<img id="Optimized-IMG_0110_1-modified" src="Optimized-IMG_0110_1-modified.png" srcset="Optimized-IMG_0110_1-modified.png 1x, Optimized-IMG_0110_1-modified@2x.png 2x">
+
+	<img id="leslieconeyheadshot-modified" src="leslieconeyheadshot-modified.png" srcset="leslieconeyheadshot-modified.png 1x, leslieconeyheadshot-modified@2x.png 2x">
+
 </div>
 </body>
 </html>

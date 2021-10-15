@@ -4,16 +4,16 @@
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About the Project</title>
+<title>Index</title>
 <style id="applicationStylesheet" type="text/css">
 	.mediaViewInfo {
-		--web-view-name: About the Project;
-		--web-view-id: About_the_Project;
+		--web-view-name: Index;
+		--web-view-id: Index;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
 	:root {
-		--web-view-ids: About_the_Project;
+		--web-view-ids: Index;
 	}
 	* {
 		margin: 0;
@@ -21,14 +21,14 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#About_the_Project {
+	#Index {
 		position: absolute;
-		width: 1920px;
-		height: 1080px;
+		width: 100vw;
+		height: 100%;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
-		--web-view-name: About the Project;
-		--web-view-id: About_the_Project;
+		--web-view-name: Index;
+		--web-view-id: Index;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
@@ -42,7 +42,7 @@
 		}
 
 	}
-	#Background2 {
+	#Background1 {
 		position: absolute;
 		width: 1920px;
 		height: 1080px;
@@ -50,7 +50,7 @@
 		top: 0px;
 		overflow: visible;
 	}
-	#Untitled_design {
+	#background1 {
 		position: absolute;
 		width: 1920px;
 		height: 1080px;
@@ -82,10 +82,6 @@
 		overflow: visible;
 		width: 489px;
 		white-space: nowrap;
-		--web-animation: fadein 0.3s ease-out;
-		--web-action-type: page;
-		--web-action-target: index.html;
-		cursor: pointer;
 		text-align: left;
 		font-family: Helvetica Neue;
 		font-style: normal;
@@ -93,50 +89,47 @@
 		font-size: 35px;
 		color: rgba(4,83,241,1);
 	}
-	#Rectangle_2 {
-		fill: rgba(255,255,255,1);
-		stroke: rgba(112,112,112,1);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Rectangle_2 {
+	#We_are_researchers_interested_ {
+		left: 242px;
+		top: 131px;
 		position: absolute;
 		overflow: visible;
-		width: 1517px;
-		height: 766px;
-		left: 202px;
-		top: 257px;
-	}
-	#The_purpose_of_this_project_is {
-		left: 428px;
-		top: 323px;
-		position: absolute;
-		overflow: hidden;
-		width: 1065px;
-		height: 638px;
+		width: 719px;
+		height: 512px;
 		text-align: center;
 		font-family: Helvetica Neue;
 		font-style: normal;
-		font-weight: normal;
-		font-size: 35px;
-		color: rgba(0,0,0,1);
+		font-weight: bold;
+		font-size: 50px;
+		color: rgba(255,255,255,1);
 	}
-	#George_Mason_University_and_Ca {
-		left: 1368px;
-		top: 1039px;
+	#Compensation_40_Amazon_Gift_Ca {
+		left: 826px;
+		top: 463px;
 		position: absolute;
 		overflow: visible;
-		width: 553px;
-		height: 41px;
-		text-align: left;
+		width: 511px;
+		height: 427px;
+		text-align: right;
 		font-family: Helvetica Neue;
 		font-style: normal;
-		font-weight: normal;
-		font-size: 20px;
+		font-weight: bold;
+		font-size: 35px;
 		color: rgba(255,255,255,1);
+	}
+	#Eligibility_User_builder_or_cu {
+		left: 1206px;
+		top: 104px;
+		position: absolute;
+		overflow: visible;
+		width: 515px;
+		height: 359px;
+		text-align: right;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(4,83,241,1);
 	}
 	#Group_1 {
 		position: absolute;
@@ -153,10 +146,6 @@
 		overflow: visible;
 		width: 100px;
 		white-space: nowrap;
-		--web-animation: fadein 0.3s ease-out;
-		--web-action-type: page;
-		--web-action-target: index.html;
-		cursor: pointer;
 		text-align: left;
 		font-family: Helvetica Neue;
 		font-style: normal;
@@ -189,6 +178,10 @@
 		overflow: visible;
 		width: 101px;
 		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: About_the_Project.html;
+		cursor: pointer;
 		text-align: left;
 		font-family: Helvetica Neue;
 		font-style: normal;
@@ -213,6 +206,20 @@
 		font-weight: bold;
 		font-size: 35px;
 		color: rgba(4,83,241,1);
+	}
+	#George_Mason_University_and_Ca {
+		left: 1093px;
+		top: 865px;
+		position: absolute;
+		overflow: visible;
+		width: 553px;
+		height: 41px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
 	}
 </style>
 <script id="applicationScript">
@@ -3127,41 +3134,43 @@ window.application = new Application();
 </script>
 </head>
 <body>
-<div id="About_the_Project">
-	<div id="Background2" class="Background2">
-		<img id="Untitled_design" src="Untitled_design.png" srcset="Untitled_design.png 1x, Untitled_design@2x.png 2x">
+<div id="Index">
+	<div id="Background1" class="Background1">
+		<img id="background1" src="background1.png" srcset="background1.png 1x, background1@2x.png 2x">
 
 	</div>
 	<svg class="Rectangle_1">
 		<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="1920" height="86">
 		</rect>
 	</svg>
-	<div onclick="application.goToTargetView(event)" id="Technologists_for_Black_Lives">
+	<div id="Technologists_for_Black_Lives">
 		<span>Technologists for Black Lives</span>
 	</div>
-	<svg class="Rectangle_2">
-		<rect id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="1517" height="766">
-		</rect>
-	</svg>
-	<div id="The_purpose_of_this_project_is">
-		<span>The purpose of this project is to understand how Black and ally software developers, technologists, and community organizers have used, created, or curated resources to support the experiences of Black people. <br/><br/>In this research project, we will understand the motivations behind building these resources and tools, its impact on the community, and where there may be opportunities for how this specific group can be supported. A mixed methodology approach of semi-structured interviews, surveys, and quantitative analysis will enable the research study team to understand and effectively communicate the impact this group of technologists has had on society.<br/><br/>To learn more about the motivation behind this project, check out our <a href="https://interactions.acm.org/archive/view/the-labor-behind-the-tools" target="_blank">ACM article</a>!</span><br/>
+	<div id="We_are_researchers_interested_">
+		<span>We are researchers interested in hearing about your experience in using, curating, or creating resources & tools to support the Black <br/>lived experience</span>
 	</div>
-	<div id="George_Mason_University_and_Ca">
-		<span>George Mason University and Carnegie Mellon University</span>
+	<div id="Compensation_40_Amazon_Gift_Ca">
+		<span>Compensation:</span><br/><span style="font-style:normal;font-weight:normal;">$40 Amazon Gift Card<br/></span><br/><span>Conducted by:</span><br/><span style="font-style:normal;font-weight:normal;">Dr. Brittany Johnson, <br/>Dr. Denae Ford Robinson, <br/>Dr. Christina Harrington</span>
+	</div>
+	<div id="Eligibility_User_builder_or_cu">
+		<span>Eligibility</span><br/><span style="font-style:normal;font-weight:normal;color:rgba(0,0,0,1);">User, builder or curator of <br/>resource to support the Black lived experience</span><br/><span style="font-style:normal;font-weight:normal;color:rgba(112,112,112,1);"></span><br/><span>Time commitment</span><br/><span style="font-style:normal;font-weight:normal;color:rgba(0,0,0,1);">45 minute interview</span>
 	</div>
 	<div id="Group_1">
-		<div onclick="application.goToTargetView(event)" id="Home">
+		<div id="Home">
 			<span>Home</span>
 		</div>
 		<div onclick="application.goToTargetView(event)" id="Contact">
 			<span>Contact</span>
 		</div>
-		<div id="About">
+		<div onclick="application.goToTargetView(event)" id="About">
 			<span>About</span>
 		</div>
 		<div onclick="application.goToTargetView(event)" id="The_Team">
 			<span>The Team</span>
 		</div>
+	</div>
+	<div id="George_Mason_University_and_Ca">
+		<span>George Mason University and Carnegie Mellon University</span>
 	</div>
 </div>
 </body>
