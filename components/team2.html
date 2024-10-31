@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>T4BL Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/favicon.svg"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+  </head>
+  <body>
+    <link rel="stylesheet" href="../style.css" />
+    <div>
+      <link href="./team2.css" rel="stylesheet" />
+      <div class="thq-section-padding">
+        <div class="team2-max-width thq-section-max-width">
+          <div class="team2-section-title">
+            <div class="team2-content1">
+              <h2 class="team2-text10 thq-heading-2">
+                <fragment class="team2-fragment20">
+                  <span class="team2-text31">Our team</span>
+                </fragment>
+              </h2>
+            </div>
+          </div>
+          <div class="team2-content2">
+            <div class="team2-content3">
+              <div class="team2-row1">
+                <div class="team2-card1">
+                  <img
+                    alt="Member Alt"
+                    src="public/headshot-600w.jpg"
+                    class="thq-img-ratio-1-1 team2-placeholder-image1"
+                  />
+                  <div class="team2-content4">
+                    <div class="team2-title1">
+                      <span class="team2-text11 thq-body-small">
+                        <fragment class="team2-fragment12">
+                          <span class="team2-text23">Full name</span>
+                        </fragment>
+                      </span>
+                      <span class="team2-text12 thq-body-small">
+                        <fragment class="team2-fragment13">
+                          <span class="team2-text24">Job title</span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="team2-social-icons1">
+                    <a
+                      href="https://www.linkedin.com/in/lisaegede?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACH8WoEB7z2prlx34N-6qCvuOzzKcqlZo0E&amp;lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bmuf4KvdeRyCcmrhvEtU%2FnQ%3D%3D"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team2-link1"
+                    >
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="team2-icon10 thq-icon-small"
+                      >
+                        <path
+                          d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                    <a
+                      href="https://twitter.com/lisaegede"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team2-link2"
+                    >
+                      <svg
+                        viewBox="0 0 950.8571428571428 1024"
+                        class="team2-icon12 thq-icon-small"
+                      >
+                        <path
+                          d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="team2-card2">
+                  <div class="team2-placeholder-image2 thq-img-ratio-1-1"></div>
+                  <div class="team2-content5">
+                    <div class="team2-title2">
+                      <span class="team2-text13 thq-body-small">
+                        <fragment class="team2-fragment18">
+                          <span class="team2-text29">Full name</span>
+                        </fragment>
+                      </span>
+                      <span class="team2-text14 thq-body-small">
+                        <fragment class="team2-fragment15">
+                          <span class="team2-text26">Job title</span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="team2-social-icons2">
+                    <a
+                      href="https://www.linkedin.com/in/denaefordrobinson?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAd-7-0BuhU8fFsLoyZwHYhnRRcgEkJylhc&amp;lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BplnVvEbZTBuuSGnEhqZDPQ%3D%3D"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team2-link3"
+                    >
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="team2-icon14 thq-icon-small"
+                      >
+                        <path
+                          d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                    <a
+                      href="https://x.com/denaefordrobin?lang=en"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team2-link4"
+                    >
+                      <svg
+                        viewBox="0 0 950.8571428571428 1024"
+                        class="team2-icon16 thq-icon-small"
+                      >
+                        <path
+                          d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="team2-card3">
+                  <img
+                    alt="Member Alt"
+                    src="public/brittanygmu_headshot-600w.jpeg"
+                    class="thq-img-ratio-1-1 team2-placeholder-image3"
+                  />
+                  <div class="team2-content6">
+                    <div class="team2-title3">
+                      <span class="team2-text15 thq-body-small">
+                        <fragment class="team2-fragment11">
+                          <span class="team2-text22">Full name</span>
+                        </fragment>
+                      </span>
+                      <span class="team2-text16 thq-body-small">
+                        <fragment class="team2-fragment14">
+                          <span class="team2-text25">Job title</span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="team2-social-icons3">
+                    <a
+                      href="https://www.linkedin.com/in/brittany-i-johnson-phd?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAVBlGQBvZf5doN666tZRST6G7STrcAyHZE&amp;lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B1cKexGILQ%2FWC6b%2Fo%2Fudjxg%3D%3D"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team2-link5"
+                    >
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="team2-icon18 thq-icon-small"
+                      >
+                        <path
+                          d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                    <a
+                      href="https://x.com/DrBrittJay"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team2-link6"
+                    >
+                      <svg
+                        viewBox="0 0 950.8571428571428 1024"
+                        class="team2-icon20 thq-icon-small"
+                      >
+                        <path
+                          d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="team2-row2">
+                <div class="team2-card4">
+                  <img
+                    alt="Member Alt"
+                    src="public/leslie-coney-uw-600w.jpg"
+                    class="thq-img-ratio-1-1 team2-placeholder-image4"
+                  />
+                  <div class="team2-content7">
+                    <div class="team2-title4">
+                      <span class="team2-text17 thq-body-small">
+                        <fragment class="team2-fragment19">
+                          <span class="team2-text30">Full name</span>
+                        </fragment>
+                      </span>
+                      <span class="team2-text18 thq-body-small">
+                        <fragment class="team2-fragment10">
+                          <span class="team2-text21">Job title</span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="team2-social-icons4">
+                    <a
+                      href="https://www.linkedin.com/in/leslie-coney?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACYWuxYBkFimmkrcOya3o3zZeIFzUlhqKyc&amp;lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BG8trQP%2B%2FTciCLepValvNXQ%3D%3D"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team2-link7"
+                    >
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="team2-icon22 thq-icon-small"
+                      >
+                        <path
+                          d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="team2-card5">
+                  <img
+                    alt="Member Alt"
+                    src="public/christinaheadshotehiweb-494x494-500h.jpg"
+                    class="thq-img-ratio-1-1 team2-placeholder-image5"
+                  />
+                  <div class="team2-content8">
+                    <div class="team2-title5">
+                      <span class="team2-text19 thq-body-small">
+                        <fragment class="team2-fragment16">
+                          <span class="team2-text27">Full name</span>
+                        </fragment>
+                      </span>
+                      <span class="team2-text20 thq-body-small">
+                        <fragment class="team2-fragment17">
+                          <span class="team2-text28">Job title</span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="team2-social-icons5">
+                    <a
+                      href="https://www.linkedin.com/in/cnicoleharrington?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAUSVdQBufdYzr6uaHjkcIrS5UOqd-Thw-I&amp;lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BprWwse7nSyydYkgAunNz0A%3D%3D"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team2-link8"
+                    >
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="team2-icon24 thq-icon-small"
+                      >
+                        <path
+                          d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
